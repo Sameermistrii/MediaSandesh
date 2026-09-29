@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MediaSandesh" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#1C1C1C</item>
+        <item name="android:navigationBarColor">#1C1C1C</item>
+        <item name="android:windowBackground">#F4F4F4</item>
+    </style>
+
+    <style name="Theme.MediaSandesh.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#FAFAFA</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_icon</item>
+        <item name="postSplashScreenTheme">@style/Theme.MediaSandesh.Splash</item>
+    </style>
+
+    <style name="Theme.MediaSandesh.Splash" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#FAFAFA</item>
+        <item name="android:navigationBarColor">#FAFAFA</item>
+        <item name="android:windowBackground">#FAFAFA</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
